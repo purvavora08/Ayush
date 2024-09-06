@@ -1,0 +1,80 @@
+/* Styles for the React project */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: seagreen;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .toggle-menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu ul li {
+    margin: 0 10px;
+  }
+  
+  .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #plant-list {
+    padding: 20px;
+  }
+  
+  .plant-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .plant-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .add-to-favorites {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .add-to-favorites.green {
+    color: green;
+  }
+  
+  .feature-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: seagreen;
+    font-weight: bold;
+  }
+  
+  .feature-content {
+    margin-top: 10px;
+  }
+  
